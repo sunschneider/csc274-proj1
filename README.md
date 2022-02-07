@@ -14,6 +14,6 @@ three-coloring triangulated polygon
 **output**-returns an array of three value arrays representing triangles, with each value representing a colored vertex   
 **description**-triangulates and colors polygon (see tricolorize) and then "paints" colors onto corresponding vertices. mostly just used to check that the function properly colored the vertices (i.e. that each triangle has all 3 colors)  
 ### minguards(n, x, y)
-**inputs**-n, the number of sides on the polygon; x, an array of x coordinates of the vertices; and y, an array of y cooridinates of the vertices
+**inputs**-n, the number of sides on the polygon; x, an array of x coordinates of the vertices; and y, an array of y cooridinates of the vertices  
 **output**-a single int, representing the minimum number of guards needed to guard a polygon with n sides in the Art Gallery theorem, based on Steve Fisk's Short proof, note that this is not necesarily the optimal amount for the given polygon, but is always sufficient.  
 **description**-triangulates and colors the polygon (see tricolorize) then finds the color with the lowest number of vertices and returns that number
