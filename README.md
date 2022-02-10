@@ -4,6 +4,7 @@ three-coloring triangulated polygon
 **polygon_triangulate.py**-a copy of python code for triangulating a polygon by Joe Burkhardt at FSU (https://people.sc.fsu.edu/~jburkardt/py_src/polygon_triangulate/polygon_triangulate.html)  
 **tricolor.py**-my functions, used to tricolor a polygon using a greedy algorithm, which works here because the dual graph of a triangulation is a tree and a function to calculate the minimum number of "guards" needed based on the colored polygon  
 **main.py**-usage examples of my functions on two polygons  
+**explaination.pdf**-more detailed documentation
 ## functions
 ### tricolorize(n, x, y)  
 **inputs**-n, the number of sides on the polygon; x, an array of x coordinates of the vertices; and y, an array of y cooridinates of the vertices. NOTE: points need to be in counterclockwise order for triangulation to work   
